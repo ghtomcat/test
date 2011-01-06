@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+ <html>
+   <head>
+     <meta name="viewport" content="width=320; user-scalable=no" />
+     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+     <title>PhoneGap</title>
+        <link rel="stylesheet" href="/master.css" type="text/css"
+                  media="screen" title="no title" charset="utf-8">
+        <script type="text/javascript" charset="utf-8" src="/phonegap.js"></script>
+         <script src="/Starfield.js" type="text/javascript"></script>         
+<!-- include our own style for this page -->
+         <style type="text/css">
+             body { background-color : #000000; color: white; }
+             h2, h3 { text-align: center; margin: 3px;}
+             h3 { font-size: 75% }
+         </style>
+   </head>
+   <body id="stage" class="theme">
+         <div id="myapp">
+         <h2>Star Field</h2>
+         <h3>tap to start</h3>
+         <canvas id="svgCanvas" width="320" height="320"
+                 onclick="starfieldStart()"></canvas>
+         </div>
+   </body>
+</html>
